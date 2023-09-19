@@ -22,7 +22,6 @@ let leftAnimation=gsap.to(".left",{
     stagger:0.5,
     scrollTrigger:{
         trigger:'.containerContainAll',
-        markers:true,
         start:"top -30px",
         end:"top -400px",
         scrub: true,
