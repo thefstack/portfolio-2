@@ -65,7 +65,6 @@ window.addEventListener('resize',()=>{
         stagger:0.5,
         scrollTrigger:{
             trigger:'.containerContainAll',
-            markers:true,
             start:"top 0px",
             markers:true,
             end:"top -200px",
