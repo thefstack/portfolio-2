@@ -1,201 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>thefstack</title>
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>  
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TheFStack - Full-Stack Developer and Freelancer Portfolio. Explore my projects, skills, and professional experience in crafting seamless user interfaces and AI-powered solutions."
+    />
+    <meta
+      name="keywords"
+      content="Full-Stack Developer, TheFStack, Raj Sharma, Web Development, AI Integration, Portfolio, React, Next.js, Node.js, Freelancing, Freelancer"
+    />
+    >
+    <meta name="author" content="Raj Sharma" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="og:title"
+      content="thefStack | Full-Stack Developer Portfolio"
+    />
+    <meta
+      name="og:description"
+      content="thefStack - Skilled Full-Stack Developer specializing in crafting seamless user experiences and AI-powered web solutions."
+    />
+    <meta name="og:image" content="./assets/image.jpg" />
+    <meta name="og:url" content="https://thefstack.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="TheFStack | Full-Stack Developer Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore projects, skills, and professional experience in full-stack development and AI solutions."
+    />
+    <meta name="twitter:image" content="./assets/image.jpg" />
+    <link rel="canonical" href="https://thefstack.com" />
+    <title>thefstack | Full-Stack Developer Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-</head>
-<body>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Raj Sharma",
+        "jobTitle": "Full-Stack Developer & Freelancer",
+        "url": "https://thefstack.com",
+        "image": "assets/image.jpg",
+        "sameAs": [
+          "https://www.instagram.com/thefstack/",
+          "https://www.linkedin.com/in/thefstack",
+          "https://github.com/thefstack"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "IVY Professional School"
+        },
+        "email": "mailto:thefstack@gmail.com",
+        "telephone": "+91 91428 92678",
+        "description": "Skilled Full-Stack Developer specializing in crafting seamless user experiences and AI-powered solutions."
+      }
+    </script>
+  </head>
+
+  <body>
     <div class="myContainer">
-        <section class="containerContainAll">
-            <div class="verticalLine"></div>
-            <div id="name">thefstack</div>
-            <div class="containHeader">
-                <h1 class="right">I’M A</h1>
-                <h1 class="left">FULL STACK</h1>
-                <h1 class="right">DEVELOPER</h1>
-                <h1 class="left">CRAFTING</h1>
-                <h1 class="right">SEAMLESS</h1>
-                <h1 class="left typing"><span id="changingText"></span>-END</h1>
-                <h1 class="right">INTERFACES</h1>
-                <h1 class="left">DESIGNED FOR</h1>
-                <h1 class="right">HUMANS.</h1>
+      <section class="containerContainAll">
+        <div class="verticalLine"></div>
+        <div id="name">thefstack</div>
+        <div class="containHeader">
+          <h1 class="right">I’M A</h1>
+          <h1 class="left">FULL STACK</h1>
+          <h1 class="right">DEVELOPER</h1>
+          <h1 class="left">CRAFTING</h1>
+          <h1 class="right">SEAMLESS</h1>
+          <h1 class="left typing"><span id="changingText"></span>-END</h1>
+          <h1 class="right">INTERFACES</h1>
+          <h1 class="left">DESIGNED FOR</h1>
+          <h1 class="right">HUMANS.</h1>
+        </div>
+        <div class="viewMyWork">
+          <p>ABOUT ME</p>
+          <div class="hrLine"></div>
+        </div>
+        <div class="about">
+          <p>
+            I am Raj, a skilled Full-Stack Developer and Freelance Developer
+            with expertise in AI integration, professional experience as a Full
+            Stack Intern at Ivy Professional School, and a strong foundation in
+            delivering user-friendly, efficient web solutions using modern
+            technologies.
+          </p>
+        </div>
+        <section class="skills">
+          <div class="viewMyWork">
+            <p>Skills</p>
+            <div class="hrLine"></div>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <h3>Front-End</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React.Js</li>
+                <li>Next.Js</li>
+              </ul>
             </div>
-            <div class="viewMyWork">
-                <p>ABOUT ME</p>
-                <div class="hrLine"></div>
+            <div class="skill-item">
+              <h3>Back-End</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>ExpressJs</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>AI Integration (OpenAI)</li>
+              </ul>
             </div>
-            <div class="about">
-                <p>I am Raj, a skilled Full-Stack Developer with expertise in AI integration, professional experience as a Full Stack Intern at Ivy Professional School, and a strong foundation in delivering user-friendly, efficient web solutions using modern technologies.</p>
+            <div class="skill-item">
+              <h3>Version Control</h3>
+              <ul>
+                <li>Git</li>
+                <li>Bitbucket</li>
+              </ul>
             </div>
-            <section class="skills">
-                <div class="viewMyWork">
-                    <p>Skills</p>
-                    <div class="hrLine"></div>
-                </div>
-                <div class="skills-list">
-                    <div class="skill-item">
-                        <h3>Front-End</h3>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>React.Js</li>
-                            <li>Next.Js</li>
-                        </ul>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Back-End</h3>
-                        <ul>
-                            <li>Node.js</li>
-                            <li>ExpressJs</li>
-                            <li>MongoDB</li>
-                            <li>MySQL</li>
-                            <li>AI Integration (OpenAI)</li>
-                        </ul>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Version Control</h3>
-                        <ul>
-                            <li>Git</li>
-                            <li>Bitbucket</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="experience">                
-            <div class="viewMyProfessionalExperience">
-                <p>PROFESSIONAL EXPERIENCE</p>
-                <div class="hrLine"></div>
-            </div>
-
-            <div class="experience-list">
-                <div class="experience-item">
-                    <div class="experience-heading">
-                        <h3>Full-Stack Intern</h3>
-                    <span>[Ivy Professional School (sep-2024 - present)]</span>
-                    </div>
-                    <ul>
-                        <li><span>OpenAI Integration:</span> Successfully integrating OpenAI's APIs into web applications to implement AI-powered features, such as chatbot functionality and natural language processing capabilities.</li>
-                        <li><span>Backend with Next.js:</span> Used Next.js API routes to build and manage the backend, streamlining server-side logic and API integration.</li>
-                        <li><span>Full-Stack Development:</span> Utilized Next.js for both frontend and backend development, ensuring seamless communication and optimized performance.</li>
-                        <li><span>Collaboration:</span> Managed project versioning using GitHub and collaborated in an Agile workflow for efficient project delivery.</li>
-                    </ul>
-                </div>
-            </div>
-
-            </section>
-            
-            <div class="viewMyWork">
-                <p>VIEW MY WORK</p>
-                <div class="hrLine"></div>
-            </div>
-            <div class="videoSection">
-                <p class="workName">Rocket Health</p>
-                <div class="video videoRight">
-                    <video autoplay muted loop>
-                        <source src="./videos/rocketHealth.mp4" type="video/mp4">
-                    </video>
-                    <div class="projectLink" id="projectLink1">
-                        <div class="hrLine"></div>
-                        <a id="a" target="_blank" href="https://school-project-jsev.onrender.com/adminlogin">VIEW PROJECT</a>   
-                    </div>
-                </div>  
-            </div>
-            <div class="videoSection">
-                <p class="workName rightWorkName">Portfolio Interface</p>
-                <div class="video videoLeft">
-                    <video autoplay muted loop>
-                        <source src="./videos/portfolio.mp4" type="video/mp4">
-                    </video>
-                    <div class="projectLink" id="projectLink2">
-                        <div class="hrLine"></div>
-                        <a id="a" target="_blank" href="https://school-project-jsev.onrender.com/adminlogin">VIEW PROJECT</a>   
-                    </div>
-                </div>  
-            </div>
-            <div class="videoSection">
-                <p class="workName leftWorkName">RSMEDS Interface</p>
-                <div class="video videoRight">
-                    <video autoplay muted loop>
-                        <source src="./videos/RSMEDS.mp4" type="video/mp4">
-                    </video>
-                    <div class="projectLink" id="projectLink3">
-                        <div class="hrLine"></div>
-                        <a id="a" target="_blank" href="https://school-project-jsev.onrender.com/adminlogin">VIEW PROJECT</a>   
-                    </div>
-                </div>  
-            </div>
-            <div class="videoSection">
-                <p class="workName rightWorkName">Roche Biotique</p>
-                <div class="video videoLeft">
-                    <video autoplay muted loop>
-                        <source src="./videos/roche.mp4" type="video/mp4">
-                    </video>
-                    <div class="projectLink" id="projectLink4">
-                        <div class="hrLine"></div>
-                        <a id="a" target="_blank" href="https://school-project-jsev.onrender.com/adminlogin">VIEW PROJECT</a>   
-                    </div>
-                </div>  
-            </div>
-            <div class="videoSection">
-                <p class="workName leftWorkName">Database Login</p>
-                <div class="video videoRight">
-                    <video autoplay muted loop>
-                        <source src="./videos/database.mp4" type="video/mp4">
-                    </video>
-                    <div class="projectLink" id="projectLink5">
-                        <div class="hrLine"></div>
-                        <a id="a" target="_blank" href="https://school-project-jsev.onrender.com/adminlogin">VIEW PROJECT</a>   
-                    </div>
-                </div>  
-            </div>
+          </div>
         </section>
-        <section class="footer">
-            <div class="footer-content">
-                <!-- About Section -->
-                  
-                <!-- Contact Information -->
-                <div class="contact-info">
-                    <p id="contact-info-header"><strong>Contact Info:</strong></p>
-                    <p>Email: <a href="mailto:rajsharmahwh19@gmail.com">thefstack@gmail.com</a></p>
-                    <p>Phone: <a href="tel:+919142892678">+91 91428 92678</a></p>
-                </div>
-        
-                <!-- Social Links -->
-                <div class="social-info">
-                    <p>Follow Me:</p>
-                    <a href="https://www.instagram.com/thefstack/" target="_blank">
-                        <i class='bx bxl-instagram-alt'></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/thefstack" target="_blank">
-                        <i class='bx bxl-linkedin-square'></i>
-                    </a>
-                    <a href="https://github.com/thefstack" target="_blank">
-                        <i class='bx bxl-github'></i>
-                    </a>
-                </div>
 
-                <div>
-                    <p>Created by <strong>@thefstack</strong></p>
-                    <p>&copy; 2025 thefstack. All rights reserved.</p>
-                </div>
+        <section class="experience">
+          <div class="viewMyProfessionalExperience">
+            <p>PROFESSIONAL EXPERIENCE</p>
+            <div class="hrLine"></div>
+          </div>
+
+          <div class="experience-list">
+            <div class="experience-item">
+              <div class="experience-heading">
+                <h3>Full-Stack Intern</h3>
+                <span>[Ivy Professional School (sep-2024 - present)]</span>
+              </div>
+              <ul>
+                <li>
+                  <span>OpenAI Integration:</span> Successfully integrating
+                  OpenAI's APIs into web applications to implement AI-powered
+                  features, such as chatbot functionality and natural language
+                  processing capabilities.
+                </li>
+                <li>
+                  <span>Backend with Next.js:</span> Used Next.js API routes to
+                  build and manage the backend, streamlining server-side logic
+                  and API integration.
+                </li>
+                <li>
+                  <span>Full-Stack Development:</span> Utilized Next.js for both
+                  frontend and backend development, ensuring seamless
+                  communication and optimized performance.
+                </li>
+                <li>
+                  <span>Collaboration:</span> Managed project versioning using
+                  GitHub and collaborated in an Agile workflow for efficient
+                  project delivery.
+                </li>
+              </ul>
             </div>
+          </div>
         </section>
-        
+
+        <div class="viewMyWork">
+          <p>VIEW MY WORK</p>
+          <div class="hrLine"></div>
+        </div>
+        <div class="videoSection">
+          <p class="workName">Rocket Health</p>
+          <div class="video videoRight">
+            <video autoplay muted loop>
+              <source src="./videos/rocketHealth.mp4" type="video/mp4" />
+            </video>
+            <div class="projectLink" id="projectLink1">
+              <div class="hrLine"></div>
+              <a
+                id="a"
+                target="_blank"
+                href="https://school-project-jsev.onrender.com/adminlogin"
+                >VIEW PROJECT</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="videoSection">
+          <p class="workName rightWorkName">Portfolio Interface</p>
+          <div class="video videoLeft">
+            <video autoplay muted loop>
+              <source src="./videos/portfolio.mp4" type="video/mp4" />
+            </video>
+            <div class="projectLink" id="projectLink2">
+              <div class="hrLine"></div>
+              <a
+                id="a"
+                target="_blank"
+                href="https://school-project-jsev.onrender.com/adminlogin"
+                >VIEW PROJECT</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="videoSection">
+          <p class="workName leftWorkName">RSMEDS Interface</p>
+          <div class="video videoRight">
+            <video autoplay muted loop>
+              <source src="./videos/RSMEDS.mp4" type="video/mp4" />
+            </video>
+            <div class="projectLink" id="projectLink3">
+              <div class="hrLine"></div>
+              <a
+                id="a"
+                target="_blank"
+                href="https://school-project-jsev.onrender.com/adminlogin"
+                >VIEW PROJECT</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="videoSection">
+          <p class="workName rightWorkName">Roche Biotique</p>
+          <div class="video videoLeft">
+            <video autoplay muted loop>
+              <source src="./videos/roche.mp4" type="video/mp4" />
+            </video>
+            <div class="projectLink" id="projectLink4">
+              <div class="hrLine"></div>
+              <a
+                id="a"
+                target="_blank"
+                href="https://school-project-jsev.onrender.com/adminlogin"
+                >VIEW PROJECT</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="videoSection">
+          <p class="workName leftWorkName">Database Login</p>
+          <div class="video videoRight">
+            <video autoplay muted loop>
+              <source src="./videos/database.mp4" type="video/mp4" />
+            </video>
+            <div class="projectLink" id="projectLink5">
+              <div class="hrLine"></div>
+              <a
+                id="a"
+                target="_blank"
+                href="https://school-project-jsev.onrender.com/adminlogin"
+                >VIEW PROJECT</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer-content">
+          <!-- About Section -->
+
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <p id="contact-info-header"><strong>Contact Info:</strong></p>
+            <p>
+              Email:
+              <a href="mailto:rajsharmahwh19@gmail.com">thefstack@gmail.com</a>
+            </p>
+            <p>Phone: <a href="tel:+919142892678">+91 91428 92678</a></p>
+          </div>
+
+          <!-- Social Links -->
+          <div class="social-info">
+            <p>Follow Me:</p>
+            <a
+              href="https://www.instagram.com/thefstack/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/thefstack" target="_blank">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="https://github.com/thefstack" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+
+          <div>
+            <p>Created by <strong>@thefstack</strong></p>
+            <p>&copy; 2025 thefstack. All rights reserved.</p>
+          </div>
+        </div>
+      </section>
     </div>
 
-    
-    
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="myscript.js"></script>
-</body>
+  </body>
 </html>
