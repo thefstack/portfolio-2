@@ -66,7 +66,6 @@ window.addEventListener('resize',()=>{
         scrollTrigger:{
             trigger:'.containerContainAll',
             start:"top 0px",
-            markers:true,
             end:"top -200px",
             scrub: true,
             ease: 'Shine'
@@ -88,7 +87,7 @@ window.addEventListener('resize',()=>{
 })
 
 const typed=new Typed('#changingText',{
-    strings:['FRONT-END',"BACK-END"],
+    strings:['FRONT',"BACK"],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
@@ -103,4 +102,4 @@ ScrollReveal({
     delay:100
 });
 
-ScrollReveal().reveal('.about, .videoSection', {origin:'bottom'});
+ScrollReveal().reveal('.about, .videoSection, .experience-list, .skill-item', {origin:'bottom'});
